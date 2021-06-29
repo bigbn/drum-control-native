@@ -15,10 +15,7 @@ PKG_CHECK_MODULES([alsa], [alsa])
 PKG_CHECK_MODULES([tinyxml2], [tinyxml2])
 PKG_CHECK_MODULES([exadrums], [exadrums])
 
-AC_CONFIG_FILES([
-    Makefile
-    src/Makefile
-])
+AC_CONFIG_FILES([Makefile])
 
 #AM_SILENT_RULES([yes])
 
