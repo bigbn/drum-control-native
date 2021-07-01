@@ -14,7 +14,7 @@ int main() {
     
     std::cout << "Constructed...\n";
     drumKit.Start([&](int _instrumentId, float _rawVolume) {
-        printf("INST: %d \t VOL:%g\n", _instrumentId, _rawVolume);
+       //printf("INST: %d \t VOL:%g\n", _instrumentId, _rawVolume);
     });
    
    
