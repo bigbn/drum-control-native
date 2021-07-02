@@ -13,12 +13,14 @@ int main() {
     eXaDrumsApi::eXaDrums drumKit{"/home/bigbn/data"};
     
     std::cout << "Constructed...\n";
-    drumKit.Start([&](int _instrumentId, float _rawVolume) {
+    drumKit.Start();
+    // [&](int _instrumentId, float _rawVolume) {
        //printf("INST: %d \t VOL:%g\n", _instrumentId, _rawVolume);
-    });
-   
-   
+    //});
+      
     std::cout << "Started\n";
-    //while(true) { }
+    while(true) { 
+        
+    }
     return 0;
 }
