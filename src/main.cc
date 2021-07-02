@@ -10,17 +10,13 @@ using namespace std;
 
 int main() {
     std::cout << "Starting...\n";
-    eXaDrumsApi::eXaDrums drumKit{"/home/bigbn/data"};
+    eXaDrumsApi::eXaDrums drumKit{"/etc/drums-data"};
     
     std::cout << "Constructed...\n";
     drumKit.Start();
-    // [&](int _instrumentId, float _rawVolume) {
-       //printf("INST: %d \t VOL:%g\n", _instrumentId, _rawVolume);
-    //});
-      
+          
     std::cout << "Started\n";
-    while(true) { 
-        
-    }
+    
+    while(true) {}
     return 0;
 }
